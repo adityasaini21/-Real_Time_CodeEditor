@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Realtime-Code-Editor
 Realtime-Code-Editor: Revolutionize the way you code with your team. This web-based editor provides a real-time collaborative environment where every keystroke is instantly synced. Say goodbye to fragmented work and hello to seamless teamwork, whether you're debugging, pair programming, or learning together.
 >>>>>>> 060cfd1221fbd85f3a29da45527477eff7df661f
+=======
+
+>>>>>>> 568c4f08256b16e0a1107e9ebe6935c13d2680f6

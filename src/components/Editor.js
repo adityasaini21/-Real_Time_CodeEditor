@@ -40,7 +40,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
             });
         }
         init();
-    }, []); // FIX: Added missing dependencies to prevent ESLint errors.
+    }, [onCodeChange, roomId, socketRef]); // FIX: Added missing dependencies to prevent ESLint errors.
 
     // This useEffect hook listens for code changes from the server.
     // It's crucial for real-time synchronization between clients.
@@ -59,7 +59,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                 socketRef.current.off(ACTIONS.CODE_CHANGE);
             }
         };
-    }, [socketRef.current]); // FIX: Corrected dependency from `socketRef.current` to `socketRef` to satisfy ESLint.
+    }, [socketRef]); // FIX: Corrected dependency from `socketRef.current` to `socketRef` to satisfy ESLint.
 
     return <textarea id="realtimeEditor"></textarea>;
 };

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -81,3 +82,6 @@ Realtime-Code-Editor: Revolutionize the way you code with your team. This web-ba
 =======
 # Real-Time-Code-Editor
 >>>>>>> f2cc1b56576dc1d7bff6642ad85cfad816541e91
+=======
+
+>>>>>>> 63fdba554a0bbdb51f41c3f5db622bef9c513110

@@ -59,7 +59,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                 socketRef.current.off(ACTIONS.CODE_CHANGE);
             }
         };
-    }, [socketRef]); // FIX: Corrected dependency from `socketRef.current` to `socketRef` to satisfy ESLint.
+    }, [socketRef.current]); // FIX: Corrected dependency from `socketRef.current` to `socketRef` to satisfy ESLint.
 
     return <textarea id="realtimeEditor"></textarea>;
 };

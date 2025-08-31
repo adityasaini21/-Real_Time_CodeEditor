@@ -59,7 +59,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                 socketRef.current.off(ACTIONS.CODE_CHANGE);
             }
         };
-    }, [socketRef.current]); // FIX: Added missing dependency to the second useEffect hook.
+    }, [socketRef]); // FIX: Corrected dependency from `socketRef.current` to `socketRef` to satisfy ESLint.
 
     return <textarea id="realtimeEditor"></textarea>;
 };

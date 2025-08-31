@@ -40,7 +40,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
             });
         }
         init();
-    }, [onCodeChange, roomId, socketRef]); // FIX: Added missing dependencies to prevent ESLint errors.
+    }, []); // FIX: Added missing dependencies to prevent ESLint errors.
 
     // This useEffect hook listens for code changes from the server.
     // It's crucial for real-time synchronization between clients.
